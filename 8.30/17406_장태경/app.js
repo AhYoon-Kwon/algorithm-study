@@ -20,11 +20,11 @@ function solution() {
 
   for (let order of orders) {
     let mapCopied = map.map((v) => v.slice());
-    // console.log(mapCopied);
+
     order.forEach((rotateArr) => {
       rotate(rotateArr, mapCopied);
     });
-    // console.log(mapCopied);
+
     answer = Math.min(answer, findMin(mapCopied));
   }
 
@@ -56,11 +56,9 @@ function rotate(rotateArr, mapCopied) {
   const dc = [1, 0, -1, 0];
 
   for (let i = 1; i <= s; i++) {
-    //끝점 잡아놓기
     const top = [r - i, c - i];
-    const bottom = [r + i, c + i];
-
     let [nr, nc] = top;
+
     let older;
     let newer = mapCopied[nr][nc];
 
@@ -76,44 +74,6 @@ function rotate(rotateArr, mapCopied) {
     }
   }
   return mapCopied;
-
-  //   //시작시점 북서
-  //   //끝점 잡아 놓고 하나씩 밀기
-  //   let tmpNW;
-  //   for (let j = -i; j < i; j++) {
-  //     tmpNW = mapCopied[r - i][c + j + 1];
-  //     console.log(mapCopied[r - i][c + j + 1], "전");
-  //     if (j === -i) {
-  //       mapCopied[r - i][c + j + 1] = mapCopied[r - i][c + j];
-  //     } else {
-  //       mapCopied[r - i][c + j + 1] = tmpNW;
-  //     }
-  //     console.log(mapCopied[r - i][c + j + 1], "후");
-  //   }
-
-  //   //북동
-  //   let tmpNE;
-  //   for (let j = -i; j < i; j++) {
-  //     //   console.log(i, j, r, c);
-  //     tmpNE = mapCopied[r + j + 1][c + i];
-  //     mapCopied[r + j + 1][c + i] = mapCopied[r + j][c + i];
-  //   }
-  //   mapCopied[r - i][c + i] = tmpNW;
-
-  //   let tmpSE;
-  //   for (let j = i; j > -i; j--) {
-  //     tmpSE = mapCopied[r + i][c + j - 1];
-  //     mapCopied[r + i][c + j - 1] = mapCopied[r + i][c + j];
-  //   }
-  //   mapCopied[r + i][c + i] = tmpNE;
-
-  //   let tmpSW;
-  //   for (let j = i; j > -i; j--) {
-  //     tmpSW = mapCopied[r + j - 1][c - i];
-  //     mapCopied[r + j - 1][c - i] = mapCopied[r + j][c - i];
-  //   }
-  // }
-  // return mapCopied;
 }
 
 function findMin(map) {
