@@ -1,4 +1,5 @@
 # 아 시간초과 진짜 그럴줄 알았지만 진짜 화난닼ㅋㅋㅋㅋ - 배열을 자꾸 이리저리 가져다니니까 시간초과가 나네
+# https://dailymapins.tistory.com/202 여기 참고하자
 import copy
 import sys
 input = sys.stdin.readline
@@ -20,28 +21,26 @@ ans = sys.maxsize
 def rotate(cals):
     global arr
     global ans
-    arr_list = copy.deepcopy(arr)
     new = copy.deepcopy(arr)
 
     for cal in cals:
         r, c, s = cal
         # 인덱싱 에러가 안나도록 -1 해주기
-        start = (r - s - 1, c - s - 1)
-        end = (r + s - 1, c + s - 1)
-
-        while end[0] - start[0] > 0:
-            for i in range(1, end[0] - start[0] + 1):
-                 # 상
-                new[start[0]][start[1] + i] = arr_list[start[0]][start[1] + i - 1]
-                # 우
-                new[start[0] + i][end[1]] = arr_list[start[0] + i - 1][end[1]]
-                # 하
-                new[end[0]][end[1] - i] = arr_list[end[0]][end[1] - i + 1]
-                # 좌
-                new[end[0] - i][start[1]] = arr_list[end[0] - i + 1][start[1]]
-            start = (start[0] + 1, start[1] + 1)
-            end = (end[0] - 1, end[1] - 1)
-        arr_list = copy.deepcopy(new)
+        r -= 1
+        c -= 1
+        for n in range(s, 0, -1):
+            tmp = new[r-n][c+n]
+            # 상
+            new[r-n][c-n+1:c+n+1] = new[r-n][c-n:c+n]
+            # 좌
+            for row in range(r-n, r+n):
+                new[row][c-n] = new[row+1][c-n]
+            # 하
+            new[r+n][c-n:c+n] = new[r+n][c-n+1:c+n+1]
+            # 우
+            for row in range(r+n, r-n, -1):
+                new[row][c+n] = new[row-1][c+n]
+            new[r-n+1][c+n] = tmp
     for i in range(N):
         if sum(new[i]) < ans:
             ans = sum(new[i])
