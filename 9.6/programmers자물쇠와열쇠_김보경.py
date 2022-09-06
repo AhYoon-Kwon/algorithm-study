@@ -1,3 +1,4 @@
+from copy import deepcopy
 import sys
 path = __file__[0:-2] + 'txt'
 sys.stdin = open(path, 'r')
@@ -36,9 +37,8 @@ def solution(key, lock):
         rotated_key = list(zip(*rotated_key[::-1]))
         for i in range(1, N + M):
             for j in range(1, N + M):
-                tmp = [[0 for _ in range(2*N + M)] for _ in range(2*N + M)]
+                tmp = deepcopy(board)
                 add(i, j, N, rotated_key, tmp)
-                print(tmp)
                 if check(tmp, N, M):
                     return True
 
