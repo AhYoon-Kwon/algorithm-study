@@ -28,7 +28,7 @@ SSAFY 7기 알고리즘 스터디
 | 스터디 진행일 | 1번 | 2번 | 3번 | 주번 | 비고 | 휴가 |
 |---|---|---|---|---|---|---|
 | 8/30 | [색종이 붙이기](https://www.acmicpc.net/problem/17136) | [배열 돌리기 4](https://www.acmicpc.net/problem/17406) |  | 한유연  | 삼성 A형 기출 | 권아윤 |
-| 9/6 | [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586) | [위장](https://school.programmers.co.kr/learn/courses/30/lessons/42578) | [자물쇠와 열쇠](https://school.programmers.co.kr/learn/courses/30/lessons/60059) | 유동윤  |  | 박예인,  |
+| 9/6 | [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586) | [위장](https://school.programmers.co.kr/learn/courses/30/lessons/42578) | [자물쇠와 열쇠](https://school.programmers.co.kr/learn/courses/30/lessons/60059) | 유동윤  |  | 박예인, 장태경  |
 | 9/13 |  |  |  | 박예인  |  |  |
 | 9/20 |  |  |  | 장태경  |  |  |
 | 9/27 |  |  |  | 임현호  |  |  |
