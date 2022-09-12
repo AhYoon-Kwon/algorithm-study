@@ -1,19 +1,19 @@
 import java.util.*;
 
-public class programmersÁÖÂ÷¿ä±İ°è»ê_¹Ú¿¹ÀÎ {
+public class programmersì£¼ì°¨ìš”ê¸ˆê³„ì‚°_ë°•ì˜ˆì¸ {
 	public static String[] records = { "05:34 5961 IN", "06:00 0000 IN", "06:34 0000 OUT", "07:59 5961 OUT", "07:59 0148 IN", "18:59 0000 IN", "19:09 0148 OUT", "22:59 5961 IN", "23:00 5961 OUT" };
-	public static int[] fees = { 180, 5000, 10, 600 }; //±âº»½Ã°£ ±âº»¿ä±İ ´ÜÀ§½Ã°£ ´ÜÀ§¿ä±İ
+	public static int[] fees = { 180, 5000, 10, 600 }; //ê¸°ë³¸ì‹œê°„ ê¸°ë³¸ìš”ê¸ˆ ë‹¨ìœ„ì‹œê°„ ë‹¨ìœ„ìš”ê¸ˆ
 	
 	public static void main(String[] args) {
 		int[] answer = {};
 
-		// ¿©±â´Â Â÷ ¹øÈ£¶û ÀÌ¿ë ½Ã°£À» ÀúÀåÇÒ °Í
+		// ì—¬ê¸°ëŠ” ì°¨ ë²ˆí˜¸ë‘ ì´ìš© ì‹œê°„ì„ ì €ì¥í•  ê²ƒ
 		HashMap<String, Integer> feeMap = new HashMap<>();
 
-		// ¿©±â´Â Áö±İ ÀÖ´Â Â÷µé? out ½Ã°£ÀÌ ¾ø´Â Â÷µéÀ» À§ÇØ ³Ö¾î³õÀ½
+		// ì—¬ê¸°ëŠ” ì§€ê¸ˆ ìˆëŠ” ì°¨ë“¤? out ì‹œê°„ì´ ì—†ëŠ” ì°¨ë“¤ì„ ìœ„í•´ ë„£ì–´ë†“ìŒ
 		HashMap<String, Integer> cars = new HashMap<>();
 
-		// inÀÌ¸é ÀúÀåÇÏ°í outÀÌ¸é ÀúÀåÇÑ °Å ºÒ·¯¿Í¼­ °è»êÇÏ°í Â÷ ¹øÈ£¶û ³Ö¾îº¸Àö!
+		// inì´ë©´ ì €ì¥í•˜ê³  outì´ë©´ ì €ì¥í•œ ê±° ë¶ˆëŸ¬ì™€ì„œ ê³„ì‚°í•˜ê³  ì°¨ ë²ˆí˜¸ë‘ ë„£ì–´ë³´ìŸ!
 		for (String record : records) {
 			String a = record.split(" ")[0];
 			String b = record.split(" ")[1];
@@ -31,18 +31,19 @@ public class programmersÁÖÂ÷¿ä±İ°è»ê_¹Ú¿¹ÀÎ {
 				cars.remove(carNum);
 			}//end else
 		}//end for
-		//¾È³ª°£³ğµé Ã³¸®
+		//ì•ˆë‚˜ê°„ë†ˆë“¤ ì²˜ë¦¬
 		if (cars.size() != 0) {
 			for (String num : cars.keySet()) {
 				int inTime = cars.get(num);
 				int outTime = 1439;
 				feeMap.put(num, (feeMap.get(num)+outTime-inTime));
-				cars.remove(num);
+				//ì—¬ê¸° ì–˜ê¸°í•˜ê³  ì‹¶ë‹¤ ã…œã…œ
+				//cars.remove(num);
 			}
 		}//end if
 		
 		
-		//ÀÌÁ¦ ÀúÀåµÈ °ªÀ¸·Î µ· °è»êÀ» ÇØº¾½Ã´ÙÀ×
+		//ì´ì œ ì €ì¥ëœ ê°’ìœ¼ë¡œ ëˆ ê³„ì‚°ì„ í•´ë´…ì‹œë‹¤ì‰
 		answer = calculate(feeMap);
 		System.out.println(Arrays.toString(answer));
 	}//end main
