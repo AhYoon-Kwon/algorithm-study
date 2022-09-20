@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class programmers°¡ÀåÅ«¼ö {
+public class programmersê°€ì¥í°ìˆ˜ {
 	public static void main(String[] args) {
 		int[] numbers = { 6, 10, 2 };
 		String result = solution(numbers);
@@ -10,26 +10,26 @@ public class programmers°¡ÀåÅ«¼ö {
 	public static String solution(int[] numbers) {
 		String answer = "";
 		
-		//¹ŞÀº int[]¸¦ string[]À¸·Î º¯È¯
+		//ë°›ì€ int[]ë¥¼ string[]ìœ¼ë¡œ ë³€í™˜
 		String[] s = new String[numbers.length];
 		
 		for (int i = 0; i < numbers.length; i++) {
 			s[i] = String.valueOf(numbers[i]);
 		}
-		//¿©±â´Â Ã£¾ÆºÃ´Ù... 
-		//sort ÇÏ±â À§ÇÏ¿© comparator¸¦ »ç¿ëÇÒ °Í
-		//34, 30, 3ÀÌ ÀÖÀ¸¸é 34, 3, 30ÀÌ µÇ¾î¾ß ÇÏ´Âµ¥ 34, 30, 3ÀÌ µÇ±â ¶§¹®¿¡
-		//¾Æ½ºÅ°ÄÚµå°ªÀ» ºñ±³
+		//ì—¬ê¸°ëŠ” ì°¾ì•„ë´¤ë‹¤... 
+		//sort í•˜ê¸° ìœ„í•˜ì—¬ comparatorë¥¼ ì‚¬ìš©í•  ê²ƒ
+		//34, 30, 3ì´ ìˆìœ¼ë©´ 34, 3, 30ì´ ë˜ì–´ì•¼ í•˜ëŠ”ë° 34, 30, 3ì´ ë˜ê¸° ë•Œë¬¸ì—
+		//ì•„ìŠ¤í‚¤ì½”ë“œê°’ì„ ë¹„êµ
 		Arrays.sort(s, (a,b)->{
             return (a+b).compareTo(b+a);
         });
 		
-		//¹®ÀÚ¿­ ¿¬°á 
+		//ë¬¸ìì—´ ì—°ê²° 
 		for(int i=numbers.length-1; i>=0; i--){
             answer+=s[i];
         }
 		
-		//ÀÔ·Â µ¥ÀÌÅÍ°¡ ¸ğµÎ 0ÀÌ¸é ¿¹¿ÜÃ³¸®
+		//ì…ë ¥ ë°ì´í„°ê°€ ëª¨ë‘ 0ì´ë©´ ì˜ˆì™¸ì²˜ë¦¬
 		if(s[0].equals("0")) 
 			answer = "0";
 		
