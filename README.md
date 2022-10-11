@@ -31,7 +31,7 @@ SSAFY 7기 알고리즘 스터디
 | 9/6 | [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586) | [위장](https://school.programmers.co.kr/learn/courses/30/lessons/42578) | [자물쇠와 열쇠](https://school.programmers.co.kr/learn/courses/30/lessons/60059) | 유동윤  |  | 박예인, 장태경  | 배준성(미제출) |
 | 9/13 | [주차 요금 계산](https://school.programmers.co.kr/learn/courses/30/lessons/92341?language=java) | [k진수에서 소수](https://school.programmers.co.kr/learn/courses/30/lessons/92335) | [신규 아이디 추천](https://school.programmers.co.kr/learn/courses/30/lessons/72410) | 박예인  |  | 김보경, 장태경 | 배준성(미제출), 장태경 (결석, 미제출) |
 | 9/20 | [가장 큰 수](https://school.programmers.co.kr/learn/courses/30/lessons/42746) | [행렬의 곱셈](https://school.programmers.co.kr/learn/courses/30/lessons/12949) | [구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885) | 장태경  |  | 한유연 |   |
-| 9/27 |[실패율](https://school.programmers.co.kr/learn/courses/30/lessons/42889)  | [이진 변환 반복하기](https://school.programmers.co.kr/learn/courses/30/lessons/70129) | [영어끝말잇기](https://school.programmers.co.kr/learn/courses/30/lessons/12981)  | 임현호  |  |  |  |
+| 9/27 |[실패율](https://school.programmers.co.kr/learn/courses/30/lessons/42889)  | [이진 변환 반복하기](https://school.programmers.co.kr/learn/courses/30/lessons/70129) | [영어끝말잇기](https://school.programmers.co.kr/learn/courses/30/lessons/12981)  | 임현호  |  |  | 전원 당첨!|
 | 10/4 |  |  |  | 배준성  |  |  |  |
 | 10/11 |  |  |  | 권아윤  |  |  |  |
 | 10/18 |  |  |  | 김보경  |  |  |  |
