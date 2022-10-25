@@ -15,29 +15,18 @@ public class Main {
 		}
 		//정렬
 		Arrays.sort(pipe);
-//		System.out.println(Arrays.toString(pipe));
 		int min = pipe[0];
 		for (int i =1; i<n; i++) {
-			if (pipe[i]-min <=l+1) {
-//				System.out.println("pipe - min");
-				continue;
-			}
+			if (pipe[i]-min <=l+1) 	continue;
 			else
-			{
-//				System.out.println(pipe[i-1]-min);
-				
-				cnt += ((pipe[i-1]-min) / l) +1;
-				min = pipe[i];
-			}
+			{cnt += ((pipe[i-1]-min) / l) +1;
+			min = pipe[i];}
 		}
-
 		cnt += ((pipe[n-1]-min) / l) +1;
-		
 		if (n == 2) {
-			if (pipe[1]-pipe[0] >= l)
-				{cnt = 2;}else cnt = 1;
+			if (pipe[1]-pipe[0] >= l) cnt = 2;
+			else cnt = 1;
 		}
-
 		System.out.println(cnt);
 	}
 }
