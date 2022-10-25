@@ -34,7 +34,7 @@ SSAFY 7기 알고리즘 스터디
 | 9/27 |[실패율](https://school.programmers.co.kr/learn/courses/30/lessons/42889)  | [이진 변환 반복하기](https://school.programmers.co.kr/learn/courses/30/lessons/70129) | [영어끝말잇기](https://school.programmers.co.kr/learn/courses/30/lessons/12981)  | 임현호  |  | 권아윤 | 전원 당첨!|
 | 10/11 |[타겟넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165)  |[네트워크](https://school.programmers.co.kr/learn/courses/30/lessons/43162)  |[더 맵게](https://school.programmers.co.kr/learn/courses/30/lessons/42626)  | 배준성  |  |  | 전원 제출 |
 | 10/18 | [좋은단어](https://www.acmicpc.net/problem/3986) | [수리공항승](https://www.acmicpc.net/problem/1449) | [신입사원](https://www.acmicpc.net/problem/1946) | 권아윤  |  | 배준성 | 권아윤, 임현호 |
-| 10/25 |  |  |  | 김보경  |  |  |  |
+| 10/25 |  |  |  | 김보경  |  | 유동윤 |  |
 
 ## 참고사항
 ### 과제 제출
