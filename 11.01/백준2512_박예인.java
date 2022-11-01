@@ -29,7 +29,7 @@ public class Q2512_예산 {
 				int a = list.getFirst();
 				list.remove(0);
 				max -= a;
-				avg = max / (n-1);
+				avg = max / --n;
 			}else {
 				break;
 			}
