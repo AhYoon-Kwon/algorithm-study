@@ -1,11 +1,12 @@
-## 1. [숫자 문자열과 영단어](https://school.programmers.co.kr/learn/courses/30/lessons/81301)
-권아윤, 유동윤
+## 1. [십자카드 문제](https://www.acmicpc.net/problem/2659)
+유동윤, 임현호
 
-## 2. [거리두기 확인하기](https://school.programmers.co.kr/learn/courses/30/lessons/81302)
+## 2. [예산](https://www.acmicpc.net/problem/2512)
 
-김보경, 임현호
+권아윤, 김민지, 김보경
 
-## 3. [표 편집](https://school.programmers.co.kr/learn/courses/30/lessons/81303)
 
-김민지, 배준성
+## 3. [극장좌석](https://www.acmicpc.net/problem/2302)
 
+
+배준성, 박예인
