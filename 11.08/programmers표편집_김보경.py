@@ -1,6 +1,8 @@
+# 미해결
+
 def solution(n, k, cmd):
     arr = [i for i in range(n)]
-    deleted = []    
+    deleted = []
     curr = k
     for c in cmd:
         if c[0] == 'U':
@@ -18,6 +20,6 @@ def solution(n, k, cmd):
             if idx <= curr:
                 curr += 1
     ans = ['O' if i in arr else 'X' for i in range(n)]
-    
+
     answer = ''.join(ans)
     return answer
