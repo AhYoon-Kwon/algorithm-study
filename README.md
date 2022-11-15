@@ -36,7 +36,7 @@ SSAFY 7기 알고리즘 스터디
 | 10/18 | [좋은단어](https://www.acmicpc.net/problem/3986) | [수리공항승](https://www.acmicpc.net/problem/1449) | [신입사원](https://www.acmicpc.net/problem/1946) | 권아윤  |  | 배준성, 김보경 | 권아윤, 임현호 |
 | 11/1 | [십자카드 문제](https://www.acmicpc.net/problem/2659) | [예산](https://www.acmicpc.net/problem/2512) | [극장좌석](https://www.acmicpc.net/problem/2302) | 김보경  | 올림피아드 초등부 문제 | 유동윤 |  |
 | 11/8 | [표 편집](https://school.programmers.co.kr/learn/courses/30/lessons/81303) | [거리두기 확인하기](https://school.programmers.co.kr/learn/courses/30/lessons/81302) |[숫자 문자열과 영단어](https://school.programmers.co.kr/learn/courses/30/lessons/81301) | 김민지  |2021 카카오 채용연계형 인턴십  | 박예인 | 권아윤, 임현호, 배준성, 유동윤 |
-| 11/15 | [서로다른 부분 문자열](https://www.acmicpc.net/problem/11478) | [나이트의 이동](https://www.acmicpc.net/problem/7562) |[01타일](1904) | 유동윤  |  |  |  |
+| 11/15 | [서로다른 부분 문자열](https://www.acmicpc.net/problem/11478) | [나이트의 이동](https://www.acmicpc.net/problem/7562) |[01타일](https://www.acmicpc.net/problem/1904) | 유동윤  |  |  |  |
 
 ## 참고사항
 ### 과제 제출
