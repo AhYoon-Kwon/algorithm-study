@@ -28,15 +28,15 @@ SSAFY 7기 알고리즘 스터디
 | 스터디 진행일 | 1번 | 2번 | 3번 | 주번 | 비고 | 휴가 | 벌금 |
 |---|---|---|---|---|---|---|---|
 | 8/30 | [색종이 붙이기](https://www.acmicpc.net/problem/17136) | [배열 돌리기 4](https://www.acmicpc.net/problem/17406) |  | 한유연  | 삼성 A형 기출 | 권아윤 |  |
-| 9/6 | [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586) | [위장](https://school.programmers.co.kr/learn/courses/30/lessons/42578) | [자물쇠와 열쇠](https://school.programmers.co.kr/learn/courses/30/lessons/60059) | 유동윤  |  | 박예인, 장태경  | 배준성(미제출) |
-| 9/13 | [주차 요금 계산](https://school.programmers.co.kr/learn/courses/30/lessons/92341?language=java) | [k진수에서 소수](https://school.programmers.co.kr/learn/courses/30/lessons/92335) | [신규 아이디 추천](https://school.programmers.co.kr/learn/courses/30/lessons/72410) | 박예인  |  | 김보경, 장태경 | 배준성(미제출), 장태경 (결석, 미제출) |
+| 9/6 | [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586) | [위장](https://school.programmers.co.kr/learn/courses/30/lessons/42578) | [자물쇠와 열쇠](https://school.programmers.co.kr/learn/courses/30/lessons/60059) | 유동윤  |  | 박예인, 장태경  | 배준성 |
+| 9/13 | [주차 요금 계산](https://school.programmers.co.kr/learn/courses/30/lessons/92341?language=java) | [k진수에서 소수](https://school.programmers.co.kr/learn/courses/30/lessons/92335) | [신규 아이디 추천](https://school.programmers.co.kr/learn/courses/30/lessons/72410) | 박예인  |  | 김보경, 장태경 | 배준성, 장태경 |
 | 9/20 | [가장 큰 수](https://school.programmers.co.kr/learn/courses/30/lessons/42746) | [행렬의 곱셈](https://school.programmers.co.kr/learn/courses/30/lessons/12949) | [구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885) | 장태경  |  | 한유연 |   |
 | 9/27 |[실패율](https://school.programmers.co.kr/learn/courses/30/lessons/42889)  | [이진 변환 반복하기](https://school.programmers.co.kr/learn/courses/30/lessons/70129) | [영어끝말잇기](https://school.programmers.co.kr/learn/courses/30/lessons/12981)  | 임현호  |  | 권아윤 | 전원 당첨!|
-| 10/11 |[타겟넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165)  |[네트워크](https://school.programmers.co.kr/learn/courses/30/lessons/43162)  |[더 맵게](https://school.programmers.co.kr/learn/courses/30/lessons/42626)  | 배준성  |  |  | 전원 제출 |
+| 10/11 |[타겟넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165)  |[네트워크](https://school.programmers.co.kr/learn/courses/30/lessons/43162)  |[더 맵게](https://school.programmers.co.kr/learn/courses/30/lessons/42626)  | 배준성  |  |  | 전원 |
 | 10/18 | [좋은단어](https://www.acmicpc.net/problem/3986) | [수리공항승](https://www.acmicpc.net/problem/1449) | [신입사원](https://www.acmicpc.net/problem/1946) | 권아윤  |  | 배준성, 김보경 | 권아윤, 임현호 |
 | 11/1 | [십자카드 문제](https://www.acmicpc.net/problem/2659) | [예산](https://www.acmicpc.net/problem/2512) | [극장좌석](https://www.acmicpc.net/problem/2302) | 김보경  | 올림피아드 초등부 문제 | 유동윤 |  |
 | 11/8 | [표 편집](https://school.programmers.co.kr/learn/courses/30/lessons/81303) | [거리두기 확인하기](https://school.programmers.co.kr/learn/courses/30/lessons/81302) |[숫자 문자열과 영단어](https://school.programmers.co.kr/learn/courses/30/lessons/81301) | 김민지  |2021 카카오 채용연계형 인턴십  | 박예인 | 권아윤, 임현호, 배준성, 유동윤 |
-| 11/15 | [서로다른 부분 문자열](https://www.acmicpc.net/problem/11478) | [나이트의 이동](https://www.acmicpc.net/problem/7562) |[01타일](https://www.acmicpc.net/problem/1904) | 유동윤  |  | 유동윤 |  |
+| 11/15 | [서로다른 부분 문자열](https://www.acmicpc.net/problem/11478) | [나이트의 이동](https://www.acmicpc.net/problem/7562) |[01타일](https://www.acmicpc.net/problem/1904) | 유동윤  |  | 유동윤 | 권아윤, 김보경 |
 
 ## 참고사항
 ### 과제 제출
