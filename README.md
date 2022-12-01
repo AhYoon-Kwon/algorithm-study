@@ -38,6 +38,7 @@ SSAFY 7기 알고리즘 스터디
 | 11/8 | [표 편집](https://school.programmers.co.kr/learn/courses/30/lessons/81303) | [거리두기 확인하기](https://school.programmers.co.kr/learn/courses/30/lessons/81302) |[숫자 문자열과 영단어](https://school.programmers.co.kr/learn/courses/30/lessons/81301) | 김민지  |2021 카카오 채용연계형 인턴십  | 박예인 | 권아윤, 임현호, 배준성, 유동윤 |
 | 11/15 | [서로다른 부분 문자열](https://www.acmicpc.net/problem/11478) | [나이트의 이동](https://www.acmicpc.net/problem/7562) |[01타일](https://www.acmicpc.net/problem/1904) | 유동윤 |  | 유동윤 | 권아윤, 김보경 |
 | 11/29 | [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053) | [선긋기](https://www.acmicpc.net/problem/2170) | [문자열 폭발](https://www.acmicpc.net/problem/9935) | 박예인 |  | 김보경, 임현호 |  |
+| 12/06 | [숫자 정사각형](https://www.acmicpc.net/problem/1051) | [친구](https://www.acmicpc.net/problem/1058) | [올바른 배열](https://www.acmicpc.net/problem/1337) | |  | |  |
 
 ## 참고사항
 ### 과제 제출
