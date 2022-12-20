@@ -40,7 +40,7 @@ SSAFY 7기 알고리즘 스터디
 | 11/29 | [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053) | [선긋기](https://www.acmicpc.net/problem/2170) | [문자열 폭발](https://www.acmicpc.net/problem/9935) | 박예인 |  | 김보경, 임현호 |  |
 | 12/06 | [숫자 정사각형](https://www.acmicpc.net/problem/1051) | [친구](https://www.acmicpc.net/problem/1058) | [올바른 배열](https://www.acmicpc.net/problem/1337) | 임현호 |  | 박예인, 김민지 |  |
 | 12/13 | [아기 상어 2](https://www.acmicpc.net/problem/17086) | [회전 초밥](https://www.acmicpc.net/problem/2531) | [거짓말](https://www.acmicpc.net/problem/1043) | 배준성 |  | 배준성, 유동윤 |  |
-| 12/20 | [비숍](https://www.acmicpc.net/problem/1799) | [비밀번호 찾기](https://www.acmicpc.net/problem/17219) | [근손실](https://www.acmicpc.net/problem/18429) | 김보경 |  |  |  |
+| 12/20 | [비숍](https://www.acmicpc.net/problem/1799) | [비밀번호 찾기](https://www.acmicpc.net/problem/17219) | [근손실](https://www.acmicpc.net/problem/18429) | 김보경 |  | 임현호, 김보경 |  |
 
 ## 참고사항
 ### 과제 제출
