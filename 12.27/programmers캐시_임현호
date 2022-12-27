@@ -1,0 +1,30 @@
+import java.util.*;
+
+class Solution {
+    public int solution(int cacheSize, String[] cities) {
+        LinkedList<String> list = new LinkedList<>();
+        int answer = 0;
+        
+        if(cacheSize == 0)
+            return cities.length * 5;
+        
+        for(String city : cities) {
+            city = city.toLowerCase();
+            if(list.contains(city)) {
+                list.remove(city);
+                list.addFirst(city);
+                answer++;
+            } else if(list.size() < cacheSize) {
+                list.addFirst(city);
+                answer += 5;
+            } else {
+                list.removeLast();
+                list.addFirst(city);
+                answer += 5;
+            }
+        }
+        
+        
+        return answer;
+    }
+}
