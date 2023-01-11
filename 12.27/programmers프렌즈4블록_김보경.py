@@ -1,3 +1,5 @@
+# test 5, test 10 실패
+
 def solution(m, n, board):
     answer = 0
     game = [list(b) for b in board]
@@ -19,7 +21,8 @@ def solution(m, n, board):
                     if check[i + dx[k]][j + dy[k]] == 0:
                         check[i + dx[k]][j + dy[k]] = 1
                         cnt += 1
-
+        for i in range(m):
+            print(game[i])
         # 찾아봤는데 같은 4개의 블록이 없으면 그만
         if cnt == 0:break
         # 값 더해주기
@@ -36,10 +39,13 @@ def solution(m, n, board):
                 if game[i][j]:
                     # 아래에는 블럭이 없으면?
                     if not game[i + 1][j]:
+                        # 그 위에 모든 블럭들이 한칸씩 아래로 내려와야지 뭐
                         game[i + 1][j] = game[i][j]
                         game[i][j] = []
 
         print(check)
+        for i in range(m):
+            print(game[i])
     return answer
 
 test = ["TTTANT", "RRFACC", "RRRFCC", "TRRRAA", "TTMMMF", "TMMTTJ"]
