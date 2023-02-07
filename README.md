@@ -45,6 +45,7 @@ SSAFY 7기 알고리즘 스터디
 | 01/03 | [연산자 끼워넣기](https://www.acmicpc.net/problem/14888) | [동전 1](https://www.acmicpc.net/problem/2293) | [숨바꼭질 3](https://www.acmicpc.net/problem/13549) | 유동윤 (진행 **임현호**) |  | 김보경 | 유동윤  |
 | 01/17 | [숫자 고르기](https://www.acmicpc.net/problem/2668) | [비슷한 단어](https://www.acmicpc.net/problem/2179) | [주식](https://www.acmicpc.net/problem/11501) | 박예인 |  |  |   |
 | 01/26 | [트리]( https://www.acmicpc.net/problem/1068) | [랜선 자르기](https://www.acmicpc.net/problem/1654) | [스타트와 링크](https://www.acmicpc.net/problem/14889) | 임현호 |  |  |   |
+| 02/07 | [약수의 합](https://www.acmicpc.net/problem/17425) | [에너지 모으기](https://www.acmicpc.net/problem/16198) | [로봇 청소기](https://www.acmicpc.net/problem/14503) | 김보경 |  | 임현호,  |   |
 
 ## 참고사항
 ### 과제 제출
