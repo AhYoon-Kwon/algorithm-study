@@ -23,7 +23,8 @@ class Solution {
             int car = Integer.parseInt(st.nextToken());
             String check = st.nextToken();
             if(check.equals("out")){
-                result.put(car, calculateFee(map.get(car), time));
+                int fee = calculateFee(map.get(car), time);
+                result.put(car, fee);
                 map.remove(car);
             }else{
                 map.put(car, time);
@@ -32,13 +33,14 @@ class Solution {
         }
         for(Map.Entry<Integer, int []> tmp : map.entrySet()){
             int [] out = {23, 59};
-            result.put(tmp.getKey(), calculateFee(tmp.getValue(), out));
+            int fee = calculateFee(tmp.getValue(), out);
+            result.put(tmp.getKey(), fee);
         }
       
         int [] answer = new int [carNum.size()];
         int idx=0;
         for(int num: carNum){
-            answer[idx++]=num;
+            answer[idx++]=result.get(num);
         }
         return answer;
     }
@@ -58,7 +60,7 @@ class Solution {
             return fee;
         }
         total-=basicMin;
-        fee = (total-unitMin)*unitFee;
+        fee += (int)Math.ceil(total/unitMin)*unitFee;
         return fee;
     }
 }
